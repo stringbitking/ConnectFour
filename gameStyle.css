@@ -1,0 +1,40 @@
+body {
+	background-color: grey;
+}
+
+table {
+	margin: 0 auto;
+	border-spacing: 1px;
+}
+
+td {
+	border-style: solid;
+	border-width: 3px;
+	border-color: darkblue;
+	background-color: lightblue;
+	width: 30px;
+	height: 35px;
+	border-top: none;
+	border-bottom: none;
+
+	-webkit-border-radius: 99px;
+	-moz-border-radius: 99px;
+	border-radius: 99px;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.player1 {
+	float: left;
+	background-color: lightblue;
+}
+
+.player2 {
+	float: right;
+}
+
+#play {
+	line-height: 2;
+}
